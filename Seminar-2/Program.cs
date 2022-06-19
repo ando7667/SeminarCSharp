@@ -5,7 +5,7 @@
 // Вариант 1. Через математику
 
 // метод для проверки на 3х значное число
-
+/*
 bool CheckInput( int innum ) {
     bool bl;
     innum = innum / 100;
@@ -41,7 +41,7 @@ num = FiltrNumber( num );
 Console.WriteLine($"the second digit of the number: {num}" );
 
 // конец программы
-
+*/
 
 /*
 //Вариант 2. Через массив ( строку )
