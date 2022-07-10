@@ -6,17 +6,21 @@
 
 int SumElement(int m, int n)
 {
-    if( n >= m ) return n + SumElement(m,n - 1);
+    if( n > 0 && n >= m ) return n + SumElement(m,n - 1);
     else return 0;
 }
 
 /*
 Console.Write("Введите число m: ");
 int m = Convert.ToInt32( Console.ReadLine() );
-Console.Write("Введите число n: ");
+Console.Write("Введите натуральное число n: ");
 int n = Convert.ToInt32( Console.ReadLine() );
-Console.Write("Сумма элементов от m до n = " + SumElement(m, n));
+if(n > 0 )
+    Console.Write("Сумма элементов от m до n = " + SumElement(m, n));
+else
+    Console.Write("Значение n введено неверно!");
 */
+
 
 //=============================================================================
 // Задача 67: Напишите программу, которая будет принимать на вход число и
@@ -26,10 +30,13 @@ Console.Write("Сумма элементов от m до n = " + SumElement(m, n
 
 int CountDigits(int num)
 {
+    if(num < 0) num *= -1;
     if( num > 0 ) return 1 + CountDigits(num/10);
     return 0;
 }
 
+/*
 Console.Write("Введите число n: ");
 int n = Convert.ToInt32( Console.ReadLine() );
 Console.Write($"Количество цифр в числе {n} = " + CountDigits(n));
+*/
