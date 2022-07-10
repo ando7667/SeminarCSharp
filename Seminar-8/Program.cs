@@ -141,10 +141,11 @@ Console.WriteLine("Строка с наименьшей суммой элеме�
 //  10  9  8 7
 //--------------------------------------------------------------------------
 
-
+/*
 int sizeRow = 4;
 int sizeCol = 4;
 int startnumber = 10; 
 
 int[,] myArray = CreateSpiralArray(sizeRow,sizeCol,startnumber);
 OutputDimArrayConsole(myArray);
+*/

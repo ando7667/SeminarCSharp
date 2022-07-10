@@ -70,12 +70,12 @@ int[] CopyArray(int[] arr)
 
 
 // программа
-
+/*
 string inputdata = InputStringNumber();
 int[] array = ConvertStringToArray(inputdata);
 OutputArrayConsole(array);
 Console.WriteLine("the number of elements in the array is greater than zero : " + CountElementsGreaterZero(array) );
-
+*/
 
 //===============================================================================
 // Задача 45: Напишите программу, которая будет создавать копию заданного массива

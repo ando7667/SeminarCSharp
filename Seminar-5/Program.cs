@@ -87,7 +87,7 @@ double MinElementInArray(double[] array){
 }
 
 // задача 38
-
+/*
 double[] myArray = CreateRandomDoubleArray(20,1,10);
 double min = MinElementInArray(myArray);
 double max = MaxElementInArray(myArray);
@@ -96,3 +96,4 @@ double max = MaxElementInArray(myArray);
 Console.WriteLine("The difference between min and max: " + Math.Round( max - min,1 ));
 
 // конец
+*/
